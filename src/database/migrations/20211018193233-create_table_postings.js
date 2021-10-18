@@ -18,6 +18,15 @@ module.exports = {
         type:Sequelize.STRING,
         allowNull:false,
       },
+      idUsers:{
+        type:Sequelize.STRING,
+        allowNull: false,
+        references: {
+          model: 'User',
+          key: 'id'
+        },
+        onDelete: 'CASCADE',
+      },
       created_at: {
         type: Sequelize.DATE,
         allowNull: false,

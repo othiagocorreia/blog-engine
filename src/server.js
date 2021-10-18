@@ -8,4 +8,4 @@ require('./database')
 app.use(express.json)
 app.use(routes)
 
-app.listen(3000, console.log("It's working"))
+app.listen(3333, console.log("It's working"))
