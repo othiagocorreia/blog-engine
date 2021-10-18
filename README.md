@@ -25,3 +25,6 @@ To run this project, you will need the following packages:
 
 * [Express](https://expressjs.com/)
 * [Sequelize](https://sequelize.org/)
+
+# 🔓 Status
+🚧 Still working on it... 🚧
