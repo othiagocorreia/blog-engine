@@ -2,25 +2,21 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    return queryInterface.createTable('users', 
-    { 
+    return queryInterface.createTable('postings',
+    {
       id:{
         type:Sequelize.INTEGER,
-        allowNull: false,
-        autoIncrement: true,
+        allowNull:false,
+        autoIncrement:true,
         primaryKey: true
       },
-      name:{
-        type: Sequelize.STRING,
+      title:{
+        type:Sequelize.STRING,
         allowNull:false,
       },
-      email:{
+      content:{
         type:Sequelize.STRING,
-        allowNull: false,
-      },
-      password:{
-        type:Sequelize.STRING,
-        allowNull:false
+        allowNull:false,
       },
       created_at: {
         type: Sequelize.DATE,
@@ -30,10 +26,15 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false,
       }, 
-    });
+    })
   },
 
   down: async (queryInterface, Sequelize) => {
-    return  queryInterface.dropTable('users');
+    /**
+     * Add reverting commands here.
+     *
+     * Example:
+     * await queryInterface.dropTable('users');
+     */
   }
 };
