@@ -4,7 +4,7 @@ const app = express()
 
 require('./database')
 
-//Ensina o servidor a aceitar requisições em json
+//Instructs the server to accept json requests
 app.use(express.json)
 app.use(routes)
 
