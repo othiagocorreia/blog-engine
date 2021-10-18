@@ -4,8 +4,8 @@
 
 About 
 =============
-* [Objective](#Objective)
-* [Packages](#Packages)
+* [Objective](#https://github.com/thiagodk0/blog-engine#-objective)
+* [Packages](#https://github.com/thiagodk0/blog-engine#-packages)
 * [How to use](#HowToUse)
 * [Technologies](#Technologies)
 
@@ -20,3 +20,8 @@ To run this project, you will need the following packages:
     * **Express**
     
         ``` npm install express ```
+        
+# 👾 Technologies
+
+* [Express](#https://expressjs.com/)
+* [Sequelize](#https://sequelize.org/)
