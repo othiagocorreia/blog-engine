@@ -16,7 +16,7 @@ This project was made for me to learn about how Sequelize and NodeJS can work to
 To run this project, you will need the following packages: 
 
 * In your terminal run
-
-    ´´´
-    npm install express
-    ´´´
+    
+    * **Express**
+    
+        ``` npm install express ```
