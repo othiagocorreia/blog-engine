@@ -21,6 +21,19 @@ To run this project, you will need the following packages:
     
         ``` npm install express ```
         
+    * **Nodemon**
+    
+        ``` npm install nodemon ```
+   
+   *  **Sequelize**
+   
+        ``` npm isntall sequelize ```
+        
+   *  **Sequelize-cli**
+
+        ``` npm install sequelize-cli ```
+    
+        
 # 👾 Technologies
 
 * [Express](https://expressjs.com/)
