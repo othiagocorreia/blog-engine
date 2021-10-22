@@ -1,9 +1,9 @@
 module.exports={
-    database: "blog_api_database",
-    username: "thiago",
-    password: "p455w0rd",
+    database: "databasename",
+    username: "username",
+    password: "password",
     host: "127.0.0.1",
-    dialect: "mysql",
+    dialect: "database chosen",
     define:{
         timestamps: true, //createdat && updateat
         undescore: true  
