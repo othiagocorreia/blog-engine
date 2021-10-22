@@ -45,7 +45,7 @@ To run this project, you will need the following packages:
 
 3. Install all the dependencies 
 
-4. Modify the credencials of the database file in the config folder to
+4. Modify the credencials of the database file in the config folder 
 
 5. Run ``` npx sequelize db: create ``` to create the database
 
