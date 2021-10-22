@@ -6,7 +6,7 @@ About
 =============
 * [Objective](https://github.com/thiagodk0/blog-engine#-objective)
 * [Packages](https://github.com/thiagodk0/blog-engine#-packages)
-* [How to use](https://github.com/thiagodk0/blog-engine#)
+* [How to use](https://github.com/thiagodk0/blog-engine#how-to-use)
 * [Technologies](https://github.com/thiagodk0/blog-engine#-technologies)
 
 # 🎯 Objective
