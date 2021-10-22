@@ -9,6 +9,10 @@ routes.get('/', (req, res)=>{
     res.send("Hello World")
 })
 
+routes.get('/teste', (req, res)=>{
+    res.send("O teste foi feito e o sucesso foi obtido")
+})
+
 routes.post('/users', UserController.store)
 routes.post('/posts', PostingController.store)
 
